@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    background-color: #011f3f;
+    color: #fef2bf;
+}
+
+h1 {
+    font-size: 6em;;
+}
+
+.container-fluid {
+    width: 50%;
+}
+
+.pad {
+    width: 15rem;
+    height: 15rem;
+    margin: 15% auto;
+    border: .5rem solid black;
+    border-radius: 25%;
+}
+
+p {
+    margin: 0;
+    position: relative;
+    top: 10%;
+    font-size: 6em;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey !important;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+#green {
+    background-color: green;
+}
+#yellow {
+    background-color: yellow;
+}
+#red {
+    background-color: red;
+}
+#blue {
+    background-color: blue;
+}
